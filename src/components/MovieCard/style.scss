@@ -1,0 +1,21 @@
+@import '../../sources/style/variables';
+
+.movieCard {
+  padding: 0 2rem 2rem 0;
+  
+  .background {
+    width: 135px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  label {
+    font-size: $font-size-normal;
+    margin-top: 0.5rem;
+    display: block;
+    color: $black;
+    width: 135px;
+  }
+}
