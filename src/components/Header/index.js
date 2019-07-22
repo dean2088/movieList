@@ -1,12 +1,15 @@
 import React from 'react';
 import styles from './style.scss';
 import Button from '../Button';
+import { Link } from 'react-router-dom';
 
 const Header = ({ id, label, ...rest }) => {
   return (
     <div className={styles.header} {...rest}>
       <div className={styles.content}>
-        <h1>DEMO Streaming</h1>
+        <Link to="/">
+          <h1>DEMO Streaming</h1>
+        </Link>
         <div>
           <a>Log in</a>
           <Button

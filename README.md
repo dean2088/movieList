@@ -5,13 +5,14 @@
     4. npm run start
     5. npm run build
     6. npm run test
-    7. npm run test:update
+    7. npm run test:update (update snapshots)
 
 2. A quick (1 page) description of your solution
 
     1. In this test, I try to build reusable components
     2. For the WeatherCard, I use the functional component to build it because it only display props
     3. I use sass to write the css and use flex-box to handle the structure of the ui
+    4. click "DEMO Streaming" could go to home page
 
 3. testing
 

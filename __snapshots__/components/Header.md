@@ -23,9 +23,14 @@ ShallowWrapper {
       "children": <div
         className="content___OprYT"
       >
-        <h1>
-          DEMO Streaming
-        </h1>
+        <Link
+          replace={false}
+          to="/"
+        >
+          <h1>
+            DEMO Streaming
+          </h1>
+        </Link>
         <div>
           <a>
             Log in
@@ -44,9 +49,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            DEMO Streaming
-          </h1>,
+          <Link
+            replace={false}
+            to="/"
+          >
+            <h1>
+              DEMO Streaming
+            </h1>
+          </Link>,
           <div>
             <a>
               Log in
@@ -63,13 +73,27 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": "DEMO Streaming",
+            "children": <h1>
+              DEMO Streaming
+            </h1>,
+            "replace": false,
+            "to": "/",
           },
           "ref": null,
-          "rendered": "DEMO Streaming",
-          "type": "h1",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "DEMO Streaming",
+            },
+            "ref": null,
+            "rendered": "DEMO Streaming",
+            "type": "h1",
+          },
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -126,9 +150,14 @@ ShallowWrapper {
         "children": <div
           className="content___OprYT"
         >
-          <h1>
-            DEMO Streaming
-          </h1>
+          <Link
+            replace={false}
+            to="/"
+          >
+            <h1>
+              DEMO Streaming
+            </h1>
+          </Link>
           <div>
             <a>
               Log in
@@ -147,9 +176,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h1>
-              DEMO Streaming
-            </h1>,
+            <Link
+              replace={false}
+              to="/"
+            >
+              <h1>
+                DEMO Streaming
+              </h1>
+            </Link>,
             <div>
               <a>
                 Log in
@@ -166,13 +200,27 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": "DEMO Streaming",
+              "children": <h1>
+                DEMO Streaming
+              </h1>,
+              "replace": false,
+              "to": "/",
             },
             "ref": null,
-            "rendered": "DEMO Streaming",
-            "type": "h1",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "DEMO Streaming",
+              },
+              "ref": null,
+              "rendered": "DEMO Streaming",
+              "type": "h1",
+            },
+            "type": [Function],
           },
           Object {
             "instance": null,
